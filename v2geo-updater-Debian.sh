@@ -4,7 +4,7 @@ cd /usr/local/share/v2ray/
 echo ''
 echo '╔════════════════════════╗'
 echo '║ Current Directory is:  ║'
-echo '║ '$PWD'   ║'
+echo '║ '$PWD' ║'
 echo '╚═════ Step 1 done ══════╝'
 echo ''
 
