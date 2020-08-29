@@ -21,14 +21,14 @@ echo '╚═════ Step 3 done ══════════╝'
 echo ''
 
 wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat
-chmod 755 geoip.dat
+chmod 644 geoip.dat
 echo '╔════════════════════════════╗'
 echo '║ New "geoip.dat" Retrieved. ║'
 echo '╚═════ Step 4 done ══════════╝'
 echo ''
 
 wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat
-chmod 755 geosite.dat
+chmod 644 geosite.dat
 echo '╔══════════════════════════════╗'
 echo '║ New "geosite.dat" Retrieved. ║'
 echo '╚═════ Step 5 done ════════════╝'
