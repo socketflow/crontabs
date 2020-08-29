@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /usr/local/lib/v2ray/
+cd /usr/local/share/v2ray/
 echo ''
 echo '╔════════════════════════╗'
 echo '║ Current Directory is:  ║'
