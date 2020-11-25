@@ -2,10 +2,10 @@
 
 cd /usr/local/share/xray/
 echo ''
-echo '╔════════════════════════╗'
-echo '║ Current Directory is:  ║'
+echo '╔═══════════════════════╗'
+echo '║ Current Directory is: ║'
 echo '║ '$PWD' ║'
-echo '╚═════ Step 1 done ══════╝'
+echo '╚═════ Step 1 done ═════╝'
 echo ''
 
 mv geoip.dat geoip.dat.bak
