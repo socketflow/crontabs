@@ -7,6 +7,5 @@ chmod 644 /usr/local/etc/xray/xray.crt
 chmod 644 /usr/local/etc/xray/xray.key
 echo "Read Permission Granted"
 
-# systemctl restart xray
-# echo "xray Restarted"
-
+systemctl restart xray
+echo "xray Restarted"
