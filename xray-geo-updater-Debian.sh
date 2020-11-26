@@ -50,4 +50,4 @@ echo ''
 
 echo ''
 echo ''
-echo 'Please Run systemctl start v2ray to Start the Service.'
+echo 'Please Run systemctl start xray to Start the Service.'
