@@ -11,5 +11,6 @@ chmod 666 /var/log/xray/error.log
 chmod 666 /var/log/xray/access.log
 echo "Log Files Cleaned"
 
-systemctl start xray
-echo "xray Restarted"
+# this is moved from this script to crontab, so as to keep disabled service froming restarting
+# systemctl start xray
+# echo "xray Restarted"
