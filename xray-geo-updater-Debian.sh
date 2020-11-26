@@ -1,10 +1,10 @@
 #!/bin/bash
 
 systemctl stop xray
+echo ''
 echo '╔═══════════════════════╗'
 echo '║ xray Service Stopped. ║'
 echo '╚═════ Step 1 done ═════╝'
-echo ''
 
 cd /usr/local/share/xray/
 echo ''
@@ -49,5 +49,6 @@ echo ''
 # echo ''
 
 echo ''
-echo ''
 echo 'Please Run systemctl start xray to Start the Service.'
+echo ''
+echo ''
