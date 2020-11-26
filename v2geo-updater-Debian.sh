@@ -1,10 +1,10 @@
 #!/bin/bash
 
 systemctl stop v2ray
+echo ''
 echo '╔════════════════════════╗'
 echo '║ v2ray Service Stopped. ║'
 echo '╚═════ Step 1 done ══════╝'
-echo ''
 
 cd /usr/local/share/v2ray/
 echo ''
@@ -49,5 +49,6 @@ echo ''
 # echo ''
 
 echo ''
-echo ''
 echo 'Please Run systemctl start v2ray to Start the Service.'
+echo ''
+echo ''
