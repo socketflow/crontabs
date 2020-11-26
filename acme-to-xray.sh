@@ -10,6 +10,6 @@ chmod 644 /usr/local/etc/xray/xray.crt
 chmod 644 /usr/local/etc/xray/xray.key
 echo "Read Permission Granted"
 
-# this is left to crontab, to avoid diabled service gets restarted
+# this is moved from this script to crontab, so as to keep disabled service froming restarting
 # systemctl start xray
 # echo "xray started"
