@@ -7,5 +7,5 @@ chmod 644 /usr/local/etc/v2ray/v2ray.crt
 chmod 644 /usr/local/etc/v2ray/v2ray.key
 echo "Read Permission Granted"
 
-# systemctl restart v2ray
-# echo "v2ray Restarted"
+systemctl restart v2ray
+echo "v2ray Restarted"
