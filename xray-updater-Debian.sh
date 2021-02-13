@@ -1,34 +1,37 @@
 #!/bin/bash
 
-cd xray-dl
-echo 'Current Directory is: '$PWD''
+INSTALL_VERSION="v1.3.0"
+
+mkdir /root/xray-dl && cd /root/xray-dl
+echo ''
+echo '1. xray-dl folder created at '$PWD''
 echo ''
 
-wget https://github.com/XTLS/Xray-core/releases/download/v1.1.5/Xray-linux-64.zip
-echo 'New Xray Downloaded'
+wget https://github.com/XTLS/Xray-core/releases/download/$INSTALL_VERSION/Xray-linux-64.zip
+echo '2. New Xray Downloaded'
 echo ''
 
 unzip Xray-linux-64.zip
-echo 'New Xray Extracted'
+echo ''
+echo '3. New Xray Extracted'
 echo ''
 
 chmod +x xray
-echo 'New xray execution previlege provided'
+echo '4. New xray execution previlege provided'
 echo ''
 
 cp /usr/local/bin/xray /usr/local/bin/xray.bak
-echo ''
-echo 'old xray backed up'
-echo ''
-
-mv xray /usr/local/bin/
-echo 'new xray installed'
+echo '5. old xray backed up'
 echo ''
 
-rm /root/xray-dl/*
-echo 'xray-dl folder cleared'
+mv xray /usr/local/bin/ && cd /root
+echo '6. new xray installed'
+echo ''
+
+rm /root/xray-dl/* && rm -d /root/xray-dl
+echo '7. xray-dl folder cleared and removed'
 echo ''
 
 systemctl restart xray
-echo 'xray restarted'
+echo '8. xray restarted'
 echo ''
