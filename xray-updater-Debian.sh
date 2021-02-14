@@ -2,7 +2,7 @@
 
 INSTALL_VERSION="v1.3.0"
 
-cd /root/xray-dl
+mkdir /root/xray-dl && cd /root/xray-dl
 echo ''
 echo '1. current folder is '$PWD''
 echo ''
@@ -28,7 +28,7 @@ mv xray /usr/local/bin/ && cd /root
 echo '6. new xray installed'
 echo ''
 
-rm /root/xray-dl/*
+rm /root/xray-dl/* && rm -d /root/xray-dl
 echo '7. xray-dl folder cleared'
 echo ''
 
