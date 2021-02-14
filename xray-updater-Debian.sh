@@ -2,7 +2,7 @@
 
 INSTALL_VERSION="v1.3.0"
 
-mkdir /root/xray-dl && cd /root/xray-dl
+cd /root/xray-dl
 echo ''
 echo '1. xray-dl folder created at '$PWD''
 echo ''
@@ -28,8 +28,8 @@ mv xray /usr/local/bin/ && cd /root
 echo '6. new xray installed'
 echo ''
 
-rm /root/xray-dl/* && rm -d /root/xray-dl
-echo '7. xray-dl folder cleared and removed'
+rm /root/xray-dl/*
+echo '7. xray-dl folder cleared'
 echo ''
 
 systemctl restart xray
