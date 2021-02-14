@@ -4,7 +4,7 @@ INSTALL_VERSION="v1.3.0"
 
 cd /root/xray-dl
 echo ''
-echo '1. xray-dl folder created at '$PWD''
+echo '1. current folder is '$PWD''
 echo ''
 
 wget https://github.com/XTLS/Xray-core/releases/download/$INSTALL_VERSION/Xray-linux-64.zip
