@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 systemctl stop xray
 echo ''
@@ -41,14 +42,14 @@ echo '╚═════ Step 6 done ════════════╝'
 echo ''
 
 # this is moved from this script to crontab, so as to keep disabled service froming restarting
-# systemctl start xray
-# echo ''
-# echo '╔═══════════════════════╗'
-# echo '║ xray Service Started. ║'
-# echo '╚═════ Step 6 done ═════╝'
-# echo ''
+systemctl start xray
+echo ''
+echo '╔═══════════════════════╗'
+echo '║ xray Service Started. ║'
+echo '╚═════ Step 7 done ═════╝'
+echo ''
 
 echo ''
-echo 'Please Run systemctl start xray to Start the Service.'
+echo 'GeoFiles Updated and Xray Restarted.'
 echo ''
 echo ''
