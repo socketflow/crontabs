@@ -1,6 +1,6 @@
 #!/bin/bash
 
-INSTALL_VERSION="v1.3.0"
+INSTALL_VERSION="v1.5.1"
 
 mkdir /root/xray-dl && cd /root/xray-dl
 echo ''
